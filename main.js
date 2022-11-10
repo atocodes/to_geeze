@@ -100,7 +100,6 @@ function toGeezNumber(number){
         geezFormat.push(calculation)
         count++
     }
-
     //here if the number is greater than or equals to 100 and less than 200 
     //it removes the first number in array
     
