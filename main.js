@@ -131,7 +131,10 @@ function toGeezNumber(number){
 
 }
 
-const number = 41
+const number = 7
+const number2 = 14
 
 console.log(toGeezNumber(number).number)
 console.log(toGeezNumber(number).name)
+console.log(toGeezNumber(number2).number)
+console.log(toGeezNumber(number2).name)
