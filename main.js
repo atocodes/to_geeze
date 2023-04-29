@@ -130,7 +130,4 @@ function toGeezNumber(number){
     return result
 
 }
-
-const num = toGeezNumber(2015)
-console.log(num)
 exports.geeze = toGeezNumber

@@ -1,0 +1,22 @@
+{
+  "name": "geezenums",
+  "version": "1.0.0",
+  "description": "Arabian Number to Ethiopian Geeze number converter",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ato-codes/to_geeze.git"
+  },
+  "keywords": [
+    "algorythm"
+  ],
+  "author": "ato-codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ato-codes/to_geeze/issues"
+  },
+  "homepage": "https://github.com/ato-codes/to_geeze#readme"
+}
