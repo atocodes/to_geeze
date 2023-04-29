@@ -131,4 +131,6 @@ function toGeezNumber(number){
 
 }
 
+const num = toGeezNumber(2015)
+console.log(num)
 exports.geeze = toGeezNumber
