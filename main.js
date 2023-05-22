@@ -131,10 +131,12 @@ function toGeezNumber(number){
 
 }
 
-const number = 7
-const number2 = 14
+const date = 13
+const month = 4
+const year = 1888
 
-console.log(toGeezNumber(number).number)
-console.log(toGeezNumber(number).name)
-console.log(toGeezNumber(number2).number)
-console.log(toGeezNumber(number2).name)
+const d = toGeezNumber(date).number
+const m = toGeezNumber(month).number
+const y = toGeezNumber(year)
+
+console.log(y)

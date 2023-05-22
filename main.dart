@@ -1,10 +1,10 @@
-import 'dart:math';
+// import 'dart:math';
 
 void main() {
-  final random = Random();
+  // final random = Random();
   // int numberGenerate = (random.nextDouble() * 10000000000).floor();
   // print('$numberGenerate => ${toGeeze(numberGenerate)}');
-  print(toGeeze(101));
+  print(toGeeze(1888));
 }
 
 toGeeze(int number) {
@@ -98,12 +98,21 @@ toGeeze(int number) {
   }
   // print(geezeFormatt);
 
+  List<String> numberName = [];
+
   List<String> geezeNum = [];
   for (var i in geezeFormatt) {
     if (i == 0) continue;
     geezeNum.add('${mapOfGeezeNumbers[i]?['amhNum']}');
+    numberName.add('${mapOfGeezeNumbers[i]?['name']}');
   }
 
-  String finalNumber = geezeNum.join('');
-  return finalNumber;
+  if(numberName.length > 1 && number%10 != 0)numberName[numberName.length - 1] = 'ወ${numberName[numberName.length-1]}';
+
+  
+  String geezeNumber = geezeNum.join('');
+  return {
+    'geezeNumber' : geezeNumber,
+    'numberName' : numberName.join(' ')
+  };
 }
