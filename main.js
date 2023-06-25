@@ -130,13 +130,3 @@ function toGeezNumber(number){
     return result
 
 }
-
-const date = 13
-const month = 4
-const year = 1100
-
-const d = toGeezNumber(date).number
-const m = toGeezNumber(month).number
-const y = toGeezNumber(year)
-
-console.log(y)
